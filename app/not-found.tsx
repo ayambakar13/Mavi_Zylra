@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound() { return <main className="not-found"><p className="eyebrow">Zylra Atelier</p><h1>This path is not available.</h1><p>The requested page does not exist in the current catalog or navigation.</p><div className="fallback-actions"><Link className="button" href="/catalog">Return to Catalog</Link><Link className="text-link" href="/">Return to Atelier</Link></div></main>; }

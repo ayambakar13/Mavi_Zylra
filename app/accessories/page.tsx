@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function AccessoriesPage() { return <main><section className="catalog-heading"><p className="hero-subtitle">Zylra Accessories</p><h1>Accessories</h1><p>Explore the accessory categories currently represented in the catalog.</p></section><div className="taxonomy-links"><Link href="/accessories/handbags">Handbags</Link><Link href="/accessories/watches">Watches</Link></div></main>; }

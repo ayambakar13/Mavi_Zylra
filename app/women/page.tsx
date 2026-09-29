@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function WomenPage() { return <main><section className="catalog-heading"><p className="hero-subtitle">Zylra Women</p><h1>Women</h1><p>Explore Turkish and Kashmiri collections, or browse the current catalog by season and accessory.</p></section><div className="taxonomy-links"><Link href="/women/turkish">Turkish Collection</Link><Link href="/women/kashmiri">Kashmiri Collection</Link><Link href="/women/all-seasons">All Seasons</Link><Link href="/women/handbags">Handbags</Link><Link href="/women/watches">Watches</Link></div></main>; }
